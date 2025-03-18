@@ -1,0 +1,14 @@
+
+/* Estilos para el div */
+.cuadrado {
+    width: 200px;
+    height: 200px;
+    background-color: #3498db; /* Color inicial */
+    transition: background-color 1s, transform 0.5s 1s; /* Transición de color y transformaciones */
+}
+
+/* Efecto al pasar el ratón */
+.cuadrado:hover {
+    background-color: #e74c3c; /* Color al pasar el ratón */
+    transform: scale(1.2) rotate(45deg); /* Aumento de tamaño y rotación */
+}
